@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Reservar Espacio - Polideportivo MUNICIPAL</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Resvera Nuestros Espacios</h1>
+        </header>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="Clases.html">Clases</a>
+            <a href="reservas.html">Reservar Espacio</a>
+            <a href="inscripcion.html">!Abonate!</a>
+        </nav>
+
+        <section>
+            <h2>Espacios Disponibles</h2>
+            <hr>
+
+            <article class="Tenis">
+                <h3><strong>Pista de Tenis</strong></h3>
+                <form action="server.php"></form>
+
+                <label for="nombre-t">Nombre:</label>
+                <input type="text" name="nombre-t" id="nombre-tenis">
+                <br>
+
+                <label for="abonado-t">Nº de abonado:</label>
+                <input type="number" name="abonado-t" id="abonado-tenis">
+                <br>
+
+                <label for="fecha-t">Fecha:</label>
+                <input type="date" name="fecha-t" id="fecha-tenis">
+                <br>
+
+                <label for="hora-t">Hora</label>
+                <input type="time" name="hora-t" id="hora-tenis">
+                <br>                
+
+                <input type="submit" value="Reservar">
+
+                <img src="images/tenis.jpg" alt="Pista tenis">
+            </article>
+            <br>
+            <hr>
+            <br>
+
+            <article class="Padel">
+                <h3><strong>Pista de Pádel</strong></h3>
+                <form action="server.php"></form>
+
+                <label for="nombre-p">Nombre:</label>
+                <input type="text" name="nombre-p" id="nombre-padel">
+                <br>
+
+                <label for="abonado-p">Nº de abonado:</label>
+                <input type="number" name="abonado-p" id="abonado-padel">
+                <br>
+
+                <label for="fecha-p">Fecha:</label>
+                <input type="date" name="fecha-p" id="fecha-padel">
+                <br>
+
+                <label for="hora-p">Hora</label>
+                <input type="time" name="hora-p" id="hora-padel">
+                <br>
+
+                <input type="submit" value="Reservar">
+
+                <img src="images/padeljpg.jpg" alt="Pista Padel">
+            </article>
+            <br>
+            <hr>
+            <br>
+
+            <article class="Futbol">
+                <h3><strong>Campo de Fútbol</strong></h3>
+                <form action="server.php"></form>
+
+                <label for="nombre-f">Nombre:</label>
+                <input type="text" name="nombre-f" id="nombre-futbol">
+                <br>
+
+                <label for="abonado-f">Nº de abonado:</label>
+                <input type="number" name="abonado-f" id="abonado-futbol">
+                <br>
+
+                <label for="fecha-f">Fecha:</label>
+                <input type="date" name="fecha-f" id="fecha-futbol">
+                <br>
+
+                <label for="hora-f">Hora</label>
+                <input type="time" name="hora-f" id="hora-futbol">
+                <br>
+
+                <input type="submit" value="Reservar">
+
+                <img src="images/futbol.jpg" alt="Campo futbol">
+            </article>
+        </section>
+
+        <footer>
+            <p>
+                &copy; 2024 Bilbao Kirolak | Derechos Reservados
+            </p>
+        </footer>
+    </body>
+</html>

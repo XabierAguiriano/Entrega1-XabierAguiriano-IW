@@ -1,0 +1,162 @@
+/*Estilos generales delbody*/
+body{
+    font-family: Arial, Arial, Helvetica;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: #333;    
+}
+
+/*Estilos de los encabezados*/
+header{
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #cc0000;
+}
+
+header h1{
+    color: #cc0000;
+}
+
+header img{
+    width: 200px;
+    height: 150px;
+}
+
+/*Estilos de la barra de navegación*/
+nav{
+    background-color: #cc0000;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+nav a:hover{
+    background-color: #a30000;
+}
+
+/*Estilos de las secciones*/
+section{
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cc0000;
+    border-radius: 8px;
+}
+
+section h2{
+    color: #cc0000;
+}
+
+hr{
+    border: 1px solid #cc0000;
+}
+section img{
+    width: 500px;
+    height: 300px;
+    margin-left: 450px;
+}
+
+/*Estilos de los articulos*/
+article{
+    color: #cc0000;
+}
+
+article h3{
+    color: #cc0000;
+}
+
+article img{
+    width: 500px;
+    height: 300px;
+    margin-left: 450px;
+}
+
+/*Estilos de las tablas*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+
+th{
+    background-color: #f9f9f9;
+}
+
+td{
+    background-color: #f9f9f9;
+}
+
+/*Estilos de los formularios*/
+form{
+    margin-top: 20px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+select{
+    width: 50%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #a30000;
+}
+
+/*Estilos de los fieldsets*/
+fieldset{
+    border: 1px solid #cc0000;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+legend{
+    font-weight: bold;
+    color: #cc0000;
+}
+
+/*Estilos de los footers*/
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-top: 4px solid #cc0000;
+    margin-top: 20px;
+}
+
+footer p{
+    font-size: 14px;
+    color: #666;
+}

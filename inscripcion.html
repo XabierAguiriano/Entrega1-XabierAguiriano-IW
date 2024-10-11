@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Abónate - POLIDEPORTIVO MUNICIPAL</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>inscripción de Abonos</h1>
+        </header>
+
+        <nav>
+        <a href="index.html">Inicio</a>
+        <a href="Clases.html">Clases</a>
+        <a href="reservas.html">Reservar Espacio</a>
+        <a href="inscripcion.html">¡Abonate!</a>
+        </nav>
+
+        <section>
+            <h2>Formulario de Inscripción</h2>
+            <hr>
+            <h3><strong>¡AVISO!</strong></h3>
+            <br>
+            <p>Recuerda mirar bien el precio de cada tipo de abono en la tabla de abajo.</p>
+
+            <form action="server.php">
+                <fieldset>
+                    <legend>Datos Personales</legend>
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre">
+                    <br>
+
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" name="apellidos" id="apellidos">
+                    <br>
+
+                    <label for="edad">Edad:</label>
+                    <input type="number" name="edad" id="edad">
+                    <br>
+
+                    <label for="genero">Género:</label>
+                    <select name="genero" id="genero">
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <legend>Datos de Contacto</legend>
+
+                    <label for="tlfn">Nº teléfono:</label>
+                    <input type="number" name="tlfn" id="tlfn">
+                    <br>
+
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="text" name="correo" id="correo">
+                    <br>
+
+                    <label for="postal">Código postal:</label>
+                    <input type="number" name="postal" id="postal">
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <legend>Datos de Pago</legend>
+
+                    <label for="cuenta">Nº de cuenta:</label>
+                    <input type="number" name="cuenta" id="cuenta">
+                    <br>
+
+                    <label for="tipo">Tipo de abono:</label>
+                    <select name="tipo" id="tipo">
+                        <option value="mensual">Mensual</option>
+                        <option value="trimestral">Trimestral</option>
+                        <option value="anual">Anual</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="Abonar">
+                </fieldset>
+            </form>
+            <br>
+            <br>
+
+            <h2>Precios de los Abonos</h2>
+            <hr>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Grupo de Edad</th>
+                        <th>Mensual</th>
+                        <th>Trimestral</th>
+                        <th>Anual</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10-17 años</td>
+                        <td>20€</td>
+                        <td>50€</td>
+                        <td>180€</td>
+                    </tr>
+                    <tr>
+                        <td>18-25 años</td>
+                        <td>25€</td>
+                        <td>65€</td>
+                        <td>200€</td>
+                    </tr>
+                    <tr>
+                        <td>26+ años</td>
+                        <td>30€</td>
+                        <td>80</td>
+                        <td>270€</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <footer>
+            <p>
+                &copy; 2024 Bilbao Kirolak | Derechos Reservados
+            </p>
+        </footer>
+
+    </body>
+
+
+</html>
